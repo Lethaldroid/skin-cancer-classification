@@ -68,7 +68,7 @@ A deep learning application for classifying skin lesions as benign or malignant 
 
 1. **Start the FastAPI Model Service** (from `model-service` directory)
    ```bash
-   uvicorn app:app --reload --host localhost --port 8000
+   python app.py
    ```
    The API will be available at `http://localhost:8000`
 
